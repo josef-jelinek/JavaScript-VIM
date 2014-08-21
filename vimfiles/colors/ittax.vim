@@ -1,5 +1,5 @@
 " Vim color file
-" Last Change: 2014 Mar 13
+" Last Change: 2014 Aug 21
 " Acknowledgement: Based on Mustang by Henrique C. Alves (hcarvalhoalves@gmail.com)
 
 set background=dark
@@ -29,6 +29,8 @@ hi Search       guifg=#000000 guibg=#FFD700 gui=none
 hi MatchParen   guifg=#D0FFC0 guibg=#2F2F2F gui=bold
 hi Pmenu        guifg=#FFFFFF guibg=#444444
 hi PmenuSel     guifg=#000000 guibg=#B1D631
+hi ColorColumn  guibg=#540054
+call matchadd('ColorColumn', '\%81v', 100)
 
 " Syntax highlighting
 hi Comment      guifg=#808080 gui=none
